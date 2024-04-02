@@ -14,4 +14,4 @@ jobs:
     - run: ls ${{github.workspace}}
 
     - name: Check PHP syntax
-      run: phpcs public/index.php
+      run: phpcs src/
